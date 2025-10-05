@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Météo Montréal</title>
+  </head>
+  <body>
+    <a class="weatherwidget-io"
+      href="https://forecast7.com/fr/45d50n73d57/montreal/"
+      data-label_1="MONTRÉAL"
+      data-label_2="MÉTÉO"
+      data-font="Monaco"
+      data-icons="Climacons Animated"
+      data-days="5"
+      data-theme="beige"
+      >MONTRÉAL MÉTÉO</a
+    >
+    <script>
+      !(function (d, s, id) {
+        var js,
+          fjs = d.getElementsByTagName(s)[0];
+        if (!d.getElementById(id)) {
+          js = d.createElement(s);
+          js.id = id;
+          js.src = "https://weatherwidget.io/js/widget.min.js";
+          fjs.parentNode.insertBefore(js, fjs);
+        }
+      })(document, "script", "weatherwidget-io-js");
+    </script>
+  </body>
+</html>
